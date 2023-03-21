@@ -50,7 +50,7 @@ export default function Mycontent1(){
   <Card
  
  imgAlt="Meaningful alt text for an image that is not purely decorative"
- imgSrc="https://www.wallpapers13.com/wp-content/uploads/2016/02/Underwater-fish-fishes-goldfish-gold-fish-wallpaper-background-1280x960.jpg"
+ imgSrc="https://wallpaper.dog/large/20572243.jpg"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
    AQUATIC ANIMALS
@@ -67,7 +67,7 @@ export default function Mycontent1(){
  imgSrc="https://a-static.besthdwallpaper.com/cute-doggie-dogs-puppies-wallpaper-1280x960-84105_20.jpg"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-   DOGS
+   RABBIT
  </h5>
  <p className="font-normal text-gray-700 dark:text-gray-400">
    The most loyal and friendly animal in existence.
@@ -81,7 +81,7 @@ export default function Mycontent1(){
  imgSrc="https://a-static.besthdwallpaper.com/cute-doggie-dogs-puppies-wallpaper-1280x960-84105_20.jpg"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-   DOGS
+   OTHERS
  </h5>
  <p className="font-normal text-gray-700 dark:text-gray-400">
    The most loyal and friendly animal in existence.

@@ -1,4 +1,5 @@
 import { Button,Checkbox,Label,Modal, TextInput } from "flowbite-react";
+import ButtonGroup from "flowbite-react/lib/esm/components/Button/ButtonGroup";
 import { ModalBody } from "flowbite-react/lib/esm/components/Modal/ModalBody";
 import { ModalHeader } from "flowbite-react/lib/esm/components/Modal/ModalHeader";
 import { useState } from "react";
@@ -87,6 +88,17 @@ setmodalstate(false)
       </div>
     </ModalBody>
   </Modal>
+  <ButtonGroup>
+    <Button gradientDuoTone="greenToBlue">
+      Profile
+    </Button>
+    <Button gradientDuoTone="greenToBlue">
+      Settings
+    </Button>
+    <Button gradientDuoTone="greenToBlue">
+      Messages
+    </Button>
+  </ButtonGroup>
 
     </>
   )

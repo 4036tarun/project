@@ -3,43 +3,35 @@ import reactLogo from './assets/react.svg'
 // import './App.css'
 import Mynavbar1 from './component/Navbar1'
 import Myfooter1 from './component/Footer1'
-import Mycontent1 from './component/Content1'
-import Mycarousel1 from './component/Carousel1'
-import Comment1 from './component/Comment'
-import Mylogin from './component/Login1'
-// import { BrowserRouter, Route, Routes } from 'react-router-dom'
-// import Dog2 from './component/2nd pages/Dog2'
-// import Home1 from './component/Home'
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+
+import Home1 from './component/Home'
+import Services2 from './component/Services2'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <>
+
+   <BrowserRouter>
    <Mynavbar1></Mynavbar1>
-
-<Mycarousel1></Mycarousel1>
-   <Mycontent1></Mycontent1>
- 
-   
-
-
-   
-   {/* <BrowserRouter>
-   
       
    <Routes>
+   <Route  path='/' element={<Home1></Home1>}/>
    
    <Route  path='/Home' element={<Home1></Home1>}/>
-    <Route  path='/Dog' element={<Dog2></Dog2>}/>
-    
+
+
+     <Route  path='/Services' element={<Services2></Services2>}/>
+     {/* <Route  path='/*' element={<Ho></Ho>}/> */}
 
    </Routes>
-   
-   </BrowserRouter> */}
-   <Mylogin></Mylogin>
-   <Comment1></Comment1>
    <Myfooter1></Myfooter1>
+   </BrowserRouter>
+
+
    </>
   )
 }

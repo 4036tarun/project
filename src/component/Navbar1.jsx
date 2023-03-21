@@ -4,9 +4,9 @@ import { NavbarBrand } from "flowbite-react/lib/esm/components/Navbar/NavbarBran
 import { NavbarCollapse } from "flowbite-react/lib/esm/components/Navbar/NavbarCollapse";
 import { NavbarLink } from "flowbite-react/lib/esm/components/Navbar/NavbarLink";
 import { NavbarToggle } from "flowbite-react/lib/esm/components/Navbar/NavbarToggle";
-
+import { useNavigate } from "react-router-dom";
 export default function Mynavbar1(){
-
+let Navigate=useNavigate();
     return(
         <>
         <Navbar
@@ -14,16 +14,14 @@ export default function Mynavbar1(){
   rounded={true}
 >
   <NavbarBrand
-    // as={{
-    //   $$typeof: Symbol(react.forward_ref),
-    //   render: LinkWithRef
-    // }}
+  onClick={()=>{Navigate("/Home")}}
+
     to="/navbars"
   >
     <img
       src="https://e7.pngegg.com/pngimages/665/792/png-clipart-black-wolf-illustration-dog-arctic-wolf-drawing-anime-wolf-blue-mammal.png"
       className="mr-3 h-6 sm:h-9"
-      alt="Flowbite Logo"
+      alt="PET SHOP"
     />
     <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
       PET SHOP
@@ -32,9 +30,9 @@ export default function Mynavbar1(){
   <NavbarToggle />
   <NavbarCollapse>
     <NavbarLink
-      href="/home"
-      active={true}
+     onClick={()=>{Navigate("/Home")}}
     >
+      
       Home
     </NavbarLink>
     <NavbarLink
@@ -43,23 +41,13 @@ export default function Mynavbar1(){
     //     render: LinkWithRef
     //   }}
     // to="/navbars"
-      href="/about"
+    onClick={()=>{Navigate("/About")}}
     >
       About
     </NavbarLink>
-    <NavbarLink href="/services">
-      {/* Services */}
-      <Dropdown
-  label="Services"
-  inline={true}
->
-  <DropdownItem>
-    Buying
-  </DropdownItem>
-  <DropdownItem>
-    Selling
-  </DropdownItem>
-</Dropdown>
+    <NavbarLink  onClick={()=>{Navigate("/Sevices")}}>
+       Services
+      
     </NavbarLink>
     <NavbarLink href="/pricing">
       Pricing

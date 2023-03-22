@@ -1,7 +1,7 @@
 import { Card } from "flowbite-react";
 import { useNavigate } from "react-router-dom";
 
-export default function Mycontent1(){
+export default function Medcontent1(){
 
     return(
         <>
@@ -64,7 +64,7 @@ export default function Mycontent1(){
   <Card
  
  imgAlt="Meaningful alt text for an image that is not purely decorative"
- imgSrc="https://images.pexels.com/photos/12194088/pexels-photo-12194088.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+ imgSrc="https://a-static.besthdwallpaper.com/cute-doggie-dogs-puppies-wallpaper-1280x960-84105_20.jpg"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
    RABBIT
@@ -89,11 +89,7 @@ export default function Mycontent1(){
 </Card>
   </div>
 </div>
-{/* <div class="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
-      <img src="/beach-house.jpg" alt="" class="w-full h-60 object-cover rounded-lg sm:h-52 sm:col-span-2 lg:col-span-full" loading="lazy"/>
-      <img src="/beach-house-interior-1.jpg" alt="" class="hidden w-full h-52 object-cover rounded-lg sm:block sm:col-span-2 md:col-span-1 lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy"/>
-      <img src="/beach-house-interior-2.jpg" alt="" class="hidden w-full h-52 object-cover rounded-lg md:block lg:row-start-2 lg:col-span-2 lg:h-32" loading="lazy"/>
-    </div> */}
+
        
         
         </>

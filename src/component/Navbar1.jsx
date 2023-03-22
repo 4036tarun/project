@@ -36,11 +36,6 @@ let Navigate=useNavigate();
       Home
     </NavbarLink>
     <NavbarLink
-    //   as={{
-    //     $$typeof: Symbol(react.forward_ref),
-    //     render: LinkWithRef
-    //   }}
-    // to="/navbars"
     onClick={()=>{Navigate("/About")}}
     >
       About

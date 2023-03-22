@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-// import './App.css'
+ import './App.css'
 import Mynavbar1 from './component/Navbar1'
 import Myfooter1 from './component/Footer1'
 
@@ -8,9 +8,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Home1 from './component/Home'
 import Services2 from './component/Services2'
+import Medhelp1 from './component/Medhelp'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
    <>
@@ -25,6 +26,7 @@ function App() {
 
 
      <Route  path='/Services' element={<Services2></Services2>}/>
+     <Route  path='/medical-help' element={<Medhelp1></Medhelp1>}/>
      {/* <Route  path='/*' element={<Ho></Ho>}/> */}
 
    </Routes>

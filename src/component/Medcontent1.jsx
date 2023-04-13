@@ -10,14 +10,14 @@ export default function Medcontent1(){
   <Card
  
  imgAlt="Meaningful alt text for an image that is not purely decorative"
- imgSrc="https://a-static.besthdwallpaper.com/cute-doggie-dogs-puppies-wallpaper-1280x960-84105_20.jpg"
+ imgSrc="himage/Screenshot 2023-04-13 133339.png"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-   DOGS
+ Address: Shastri Market Rd, Sector 22D, Sector 22, Chandigarh, 160022
  </h5>
- <p className="font-normal text-gray-700 dark:text-gray-400">
+ {/* <p className="font-normal text-gray-700 dark:text-gray-400">
    The most loyal and friendly animal in existence.
- </p>
+ </p> */}
 </Card>
   </div>
   <div className="max-w-sm">
@@ -26,24 +26,20 @@ export default function Medcontent1(){
     imgSrc="https://webneel.com/wallpaper/sites/default/files/images/05-2013/two%20cute%20cats%20wallpaper.jpg"
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      CATS
+    Address: HBC, Dhanas, Chandigarh, 160014
     </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
-      Adorable and cute , never a dull moment with them.
-    </p>
+    
   </Card>
   </div>
   <div className="max-w-sm">
   <Card
     imgAlt="Meaningful alt text for an image that is not purely decorative"
-    imgSrc="https://www.teahub.io/photos/full/164-1643794_cute-love-bird.jpg"
+    imgSrc="himage/Screenshot 2023-04-13 134722.png"
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-      BIRDS
+    Address: H.B. NO 375, Kochar Farms, Shastri Nagar Rajiv Gandhi Technology Park, Chandigarh 160101
     </h5>
-    <p className="font-normal text-gray-700 dark:text-gray-400">
-    The presence of a single bird can change everything for one who appreciates them.
-    </p>
+    
   </Card>
   </div>
   <div className="max-w-sm">
@@ -53,11 +49,9 @@ export default function Medcontent1(){
  imgSrc="https://wallpaper.dog/large/20572243.jpg"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-   AQUATIC ANIMALS
+ Address: Shop No - 106,Inner Market, Sector 7-C, Chandigarh, 160019
  </h5>
- <p className="font-normal text-gray-700 dark:text-gray-400">
-  Live in their little world and they are the best listener. 
- </p>
+ 
 </Card>
   </div>
   <div className="max-w-sm">
@@ -67,25 +61,21 @@ export default function Medcontent1(){
  imgSrc="https://a-static.besthdwallpaper.com/cute-doggie-dogs-puppies-wallpaper-1280x960-84105_20.jpg"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-   RABBIT
+ Address: no 134-135 Phase, Booth, 5, Mohali Stadium Rd, Sahibzada Ajit Singh Nagar, Punjab 160059
  </h5>
- <p className="font-normal text-gray-700 dark:text-gray-400">
-   The most loyal and friendly animal in existence.
- </p>
+ 
 </Card>
   </div>
   <div className="max-w-sm">
   <Card
  
  imgAlt="Meaningful alt text for an image that is not purely decorative"
- imgSrc="https://a-static.besthdwallpaper.com/cute-doggie-dogs-puppies-wallpaper-1280x960-84105_20.jpg"
+ imgSrc="himage/Screenshot 2023-04-13 133959.png"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-   OTHERS
+ Address:Get-Well Pet Clinic, #1459, Sector 44, Chandigarh, 160044
  </h5>
- <p className="font-normal text-gray-700 dark:text-gray-400">
-   The most loyal and friendly animal in existence.
- </p>
+
 </Card>
   </div>
 </div>

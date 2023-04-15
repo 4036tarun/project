@@ -40,7 +40,7 @@ let Navigate=useNavigate();
     >
       About
     </NavbarLink>
-    <NavbarLink  onClick={()=>{Navigate("/Sevices")}}>
+    <NavbarLink  onClick={()=>{Navigate("/Services")}}>
        Services
       
     </NavbarLink>

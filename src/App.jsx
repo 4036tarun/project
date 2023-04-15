@@ -7,8 +7,9 @@ import Myfooter1 from './component/Footer1'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 import Home1 from './component/Home'
-import Services2 from './component/Services2'
+import Services2 from './component/Servicesdetail'
 import Medhelp1 from './component/Medhelp'
+import About2 from './component/About2'
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -25,6 +26,7 @@ function App() {
    <Route  path='/Home' element={<Home1></Home1>}/>
 
 
+     <Route  path='/About' element={<About2></About2>}/>
      <Route  path='/Services' element={<Services2></Services2>}/>
      <Route  path='/medical-help' element={<Medhelp1></Medhelp1>}/>
      {/* <Route  path='/*' element={<Ho></Ho>}/> */}

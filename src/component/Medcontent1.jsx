@@ -13,22 +13,24 @@ export default function Medcontent1(){
  imgSrc="himage/Screenshot 2023-04-13 133339.png"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
- Address: Shastri Market Rd, Sector 22D, Sector 22, Chandigarh, 160022
+ GOVT. PET HOSPITAL
  </h5>
- {/* <p className="font-normal text-gray-700 dark:text-gray-400">
-   The most loyal and friendly animal in existence.
- </p> */}
+ <p className="font-normal text-gray-700 dark:text-gray-400">
+   Address: Shastri Market Rd, Sector 22D, Sector 22, Chandigarh, 160022
+ </p>
 </Card>
   </div>
   <div className="max-w-sm">
   <Card
     imgAlt="Meaningful alt text for an image that is not purely decorative"
-    imgSrc="https://webneel.com/wallpaper/sites/default/files/images/05-2013/two%20cute%20cats%20wallpaper.jpg"
+    imgSrc="himage/Screenshot 2023-04-14 115604.png"
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-    Address: HBC, Dhanas, Chandigarh, 160014
+    Government Veterinary Hospital
     </h5>
-    
+    <p className="font-normal text-gray-700 dark:text-gray-400">
+    Address: HBC, Dhanas, Chandigarh, 160014
+ </p>
   </Card>
   </div>
   <div className="max-w-sm">
@@ -37,33 +39,39 @@ export default function Medcontent1(){
     imgSrc="himage/Screenshot 2023-04-13 134722.png"
   >
     <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-    Address: H.B. NO 375, Kochar Farms, Shastri Nagar Rajiv Gandhi Technology Park, Chandigarh 160101
+    Tri-City Kennels-Pet Hotel
     </h5>
-    
+    <p className="font-normal text-gray-700 dark:text-gray-400">
+    Address: H.B. NO 375, Kochar Farms, Shastri Nagar Rajiv Gandhi Technology Park, Chandigarh 160101
+ </p>
   </Card>
   </div>
   <div className="max-w-sm">
   <Card
  
  imgAlt="Meaningful alt text for an image that is not purely decorative"
- imgSrc="https://wallpaper.dog/large/20572243.jpg"
+ imgSrc="himage/Screenshot 2023-04-14 120350.png"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
- Address: Shop No - 106,Inner Market, Sector 7-C, Chandigarh, 160019
+ LakeSyde Veterinary Clinic & Laser Surgery Center
  </h5>
- 
+ <p className="font-normal text-gray-700 dark:text-gray-400">
+ Address: Shop No - 106,Inner Market, Sector 7-C, Chandigarh, 160019
+ </p>
 </Card>
   </div>
   <div className="max-w-sm">
   <Card
  
  imgAlt="Meaningful alt text for an image that is not purely decorative"
- imgSrc="https://a-static.besthdwallpaper.com/cute-doggie-dogs-puppies-wallpaper-1280x960-84105_20.jpg"
+ imgSrc="himage/Screenshot 2023-04-14 120745.png"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
- Address: no 134-135 Phase, Booth, 5, Mohali Stadium Rd, Sahibzada Ajit Singh Nagar, Punjab 160059
+ 'Royal K9' Pet Clinic
  </h5>
- 
+ <p className="font-normal text-gray-700 dark:text-gray-400">
+ Address: no 134-135 Phase, Booth, 5, Mohali Stadium Rd, Sahibzada Ajit Singh Nagar, Punjab 160059
+ </p>
 </Card>
   </div>
   <div className="max-w-sm">
@@ -73,9 +81,11 @@ export default function Medcontent1(){
  imgSrc="himage/Screenshot 2023-04-13 133959.png"
 >
  <h5 className="text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
- Address:Get-Well Pet Clinic, #1459, Sector 44, Chandigarh, 160044
+ Get-Well Pet Clinic
  </h5>
-
+ <p className="font-normal text-gray-700 dark:text-gray-400">
+ Address:#1459, Sector 44, Chandigarh, 160044
+ </p>
 </Card>
   </div>
 </div>

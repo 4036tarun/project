@@ -44,12 +44,12 @@ let Navigate=useNavigate();
        Services
       
     </NavbarLink>
-    <NavbarLink href="/pricing">
+    {/* <NavbarLink href="/pricing">
       Pricing
-    </NavbarLink>
-    <NavbarLink href="/contact">
+    </NavbarLink> */}
+    {/* <NavbarLink href="/contact">
       Contact
-    </NavbarLink>
+    </NavbarLink> */}
     <NavbarLink href="/medical-help">
       Medical Help
     </NavbarLink>

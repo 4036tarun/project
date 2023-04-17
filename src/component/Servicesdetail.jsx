@@ -16,19 +16,19 @@ export default function Myservices(){
       Services
     </TableHeadCell>
     <TableHeadCell>
-      Color
+      Products
     </TableHeadCell>
     <TableHeadCell>
-      Category
+      Quantity
     </TableHeadCell>
     <TableHeadCell>
-      Price
+      Dealer/customer
     </TableHeadCell>
-    <TableHeadCell>
+    {/* <TableHeadCell>
       <span className="sr-only">
         Edit
       </span>
-    </TableHeadCell>
+    </TableHeadCell> */}
   </TableHead>
   <TableBody className="divide-y">
     <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
@@ -36,88 +36,88 @@ export default function Myservices(){
         Buying
       </TableCell>
       <TableCell>
-        Sliver
+        ----
       </TableCell>
       <TableCell>
-        Laptop
+        ----
       </TableCell>
       <TableCell>
-        $2999
+        ----
       </TableCell>
-      <TableCell>
+      {/* <TableCell>
         <a
           href="/tables"
           className="font-medium text-blue-600 hover:underline dark:text-blue-500"
         >
           Edit
         </a>
-      </TableCell>
+      </TableCell> */}
     </TableRow>
     <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
         Selling
       </TableCell>
       <TableCell>
-        White
+        ----
       </TableCell>
       <TableCell>
-        Laptop PC
+        ----
       </TableCell>
       <TableCell>
-        $1999
+        ----
       </TableCell>
-      <TableCell>
+      {/* <TableCell>
         <a
           href="/tables"
           className="font-medium text-blue-600 hover:underline dark:text-blue-500"
         >
           Edit
         </a>
-      </TableCell>
+      </TableCell> */}
     </TableRow>
     <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
         Exploring
       </TableCell>
       <TableCell>
-        Black
+        ----
       </TableCell>
       <TableCell>
-        Accessories
+        ----
       </TableCell>
       <TableCell>
-        $99
+        ----
       </TableCell>
-      <TableCell>
+      {/* <TableCell>
         <a
           href="/tables"
           className="font-medium text-blue-600 hover:underline dark:text-blue-500"
         >
           Edit
         </a>
-      </TableCell>
+      </TableCell> */}
     </TableRow>
     <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
         Medical Help
       </TableCell>
       <TableCell>
-        Gray
+        ----
       </TableCell>
       <TableCell>
-        Phone
+        ----
       </TableCell>
       <TableCell>
-        $799
+        ----
       </TableCell>
-      <TableCell>
+      {/* <TableCell>
         <a
           href="/tables"
           className="font-medium text-blue-600 hover:underline dark:text-blue-500"
         >
           Edit
         </a>
-      </TableCell>
+      </TableCell> */}
     </TableRow>
     {/* <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">

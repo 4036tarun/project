@@ -77,7 +77,7 @@ export default function Myservices(){
     </TableRow>
     <TableRow className="bg-white dark:border-gray-700 dark:bg-gray-800">
       <TableCell className="whitespace-nowrap font-medium text-gray-900 dark:text-white">
-        Exploring
+        Toys and Training
       </TableCell>
       <TableCell>
         ----
